@@ -25,4 +25,7 @@
 2. [«Лахта Центр»](portfolio/lakhta-center/project.md)
 3. [«Цех промышленной 3D-печати»](portfolio/3d-printing-shop/project.md)
 4. [Прочие проекты](portfolio/other-projects/project.md)
-5. [Собственные разработки](portfolio/developments/project.md)
+5. **Собственные разработки**
+   - [HAP Wrapper](portfolio/developments/hap-wrapper/project.md)
+   - [WorkflowPanel](portfolio/developments/workflowpanel/project.md)
+   - [PickyVPN](portfolio/developments/pickyvpn/project.md)
