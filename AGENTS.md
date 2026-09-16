@@ -13,8 +13,9 @@
   - `competencies.md` — общие компетенции;
   - `tools.md` — инструменты;
   - `education.md` — образование и языки.
-- `portfolio/<project>/project.md` — описание конкретного проекта.
-- `portfolio/<project>/assets/` — графические материалы конкретного проекта.
+- `portfolio/<project>/project.md` — описание самостоятельного проекта.
+- `portfolio/<project>/assets/` — графические материалы проекта.
+- Для группировки проектов допустим дополнительный уровень каталога, например `portfolio/developments/<project>/project.md`.
 
 ## Правила содержания
 
