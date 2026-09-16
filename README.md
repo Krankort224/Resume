@@ -23,8 +23,8 @@
 
 Описание выполненных инженерных, BIM и IT-проектов с графическими материалами.
 
-1. [Хрустальный корабль](portfolio/crystal-ship/project.md)
-2. [Лахта Центр](portfolio/lakhta-center/project.md)
-3. [Цех промышленной 3D-печати](portfolio/3d-printing-shop/project.md)
+1. [«Хрустальный корабль»](portfolio/crystal-ship/project.md)
+2. [«Лахта Центр»](portfolio/lakhta-center/project.md)
+3. [«Цех промышленной 3D-печати»](portfolio/3d-printing-shop/project.md)
 4. [Прочие проекты](portfolio/other-projects/project.md)
 5. [Собственные разработки](portfolio/developments/project.md)
