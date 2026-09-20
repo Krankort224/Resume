@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>PickyVPN</AssemblyName>
+    <RootNamespace>PickyVPN.App</RootNamespace>
+    <ApplicationIcon>assets\picky-app.ico</ApplicationIcon>
+    <Version>0.1.0</Version>
+    <PickyConfiguration>$([System.String]::Copy('$(Configuration)').ToLowerInvariant())</PickyConfiguration>
+    <OutputPath>..\build\$(PickyConfiguration)\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="assets\picky-app.ico" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="assets\picky-taskbar.ico" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="assets\picky-stoat-body-dark-1024.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

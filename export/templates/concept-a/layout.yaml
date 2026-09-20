@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "concept": "a",
+  "format": "A4",
+  "font": "Arial",
+  "body_pt": 10.5,
+  "margins_mm": 18,
+  "accent": "243746",
+  "template_mode": "filled reference DOCX with tagged blocks; rebuild from Markdown, never treat template text as source",
+  "builder": "export/work/build_concepts.py",
+  "blocks": [
+    {
+      "source": "README.md",
+      "select": "contacts",
+      "document": "resume",
+      "order": 1
+    },
+    {
+      "source": "resume/summary.md",
+      "select": "all",
+      "document": "resume",
+      "order": 2
+    },
+    {
+      "source": "resume/experience.md",
+      "select": "first employer, before first horizontal rule",
+      "document": "resume",
+      "order": 3,
+      "page_break": "after first five achievement bullets; repeat section heading"
+    },
+    {
+      "source": "portfolio/crystal-ship/project.md",
+      "select": "all",
+      "document": "portfolio",
+      "order": 1,
+      "page_break": "after first four completed-work bullets"
+    },
+    {
+      "source": "portfolio/lakhta-center/project.md",
+      "select": "all",
+      "document": "portfolio",
+      "order": 2,
+      "page_break": "before project; after first eight completed-work bullets"
+    },
+    {
+      "source": "portfolio/other-projects/project.md",
+      "select": "first two cases",
+      "document": "portfolio",
+      "order": 3,
+      "page_break": "flow after Lakhta technical image"
+    }
+  ],
+  "images": [
+    {
+      "asset": "portfolio/crystal-ship/assets/hero-exterior.jpg",
+      "role": "hero",
+      "width_mm": 174,
+      "placement": "after title, before metadata",
+      "caption": null
+    },
+    {
+      "asset": "portfolio/crystal-ship/assets/facade-cfd.png",
+      "role": "technical",
+      "width_mm": 174,
+      "placement": "before facade section, after remaining completed work",
+      "caption": null
+    },
+    {
+      "asset": "portfolio/lakhta-center/assets/hero-exterior.jpg",
+      "role": "hero",
+      "width_mm": 56,
+      "placement": "left column beside metadata and role",
+      "caption": null
+    },
+    {
+      "asset": "portfolio/lakhta-center/assets/technical-sheet.png",
+      "role": "technical",
+      "width_mm": 145,
+      "placement": "after remaining completed work",
+      "caption": null
+    }
+  ],
+  "rules": {
+    "landscape": "inline; fit content width; preserve aspect ratio",
+    "portrait": "inline in left table cell; fit width; preserve aspect ratio",
+    "headings": "keep with next",
+    "bullets": "hanging indent; automatic continuation",
+    "pages": "explicit sample boundaries plus Word pagination; no image-only pages",
+    "small_cases": "stacked",
+    "metadata": "stacked"
+  }
+}

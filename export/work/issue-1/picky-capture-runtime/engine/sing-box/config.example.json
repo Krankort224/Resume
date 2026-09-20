@@ -1,0 +1,94 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true,
+    "output": "__PICKYVPN_RUNTIME_LOG_PATH__"
+  },
+  "dns": {
+    "servers": [
+      {
+        "type": "https",
+        "tag": "vless-doh",
+        "server": "__PICKYVPN_DNS_RESOLVER_IPV4__",
+        "server_port": 443,
+        "path": "/dns-query",
+        "tls": {
+          "enabled": true,
+          "server_name": "__PICKYVPN_DNS_RESOLVER_SERVER_NAME__"
+        },
+        "detour": "vless-out"
+      }
+    ],
+    "final": "vless-doh",
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "PickyVPN-VLESS-v0",
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "mtu": 1400,
+      "auto_route": true,
+      "strict_route": true,
+      "route_address": [
+        "0.0.0.0/1",
+        "128.0.0.0/1",
+        "::/1",
+        "8000::/1"
+      ],
+      "route_exclude_address": [
+        "__PICKYVPN_VPN_SERVER_IPV4__/32"
+      ],
+      "stack": "system"
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "vless-out",
+      "server": "__PICKYVPN_VPN_SERVER_IPV4__",
+      "server_port": "__PICKYVPN_VLESS_PORT__",
+      "uuid": "__PICKYVPN_VLESS_UUID__",
+      "flow": "xtls-rprx-vision",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "__PICKYVPN_REALITY_SERVER_NAME__",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "__PICKYVPN_REALITY_PUBLIC_KEY__",
+          "short_id": "__PICKYVPN_REALITY_SHORT_ID__"
+        }
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "action": "sniff",
+        "sniffer": [
+          "dns"
+        ]
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      },
+      {
+        "ip_version": 6,
+        "action": "reject",
+        "method": "default"
+      }
+    ],
+    "final": "vless-out",
+    "auto_detect_interface": true
+  }
+}
