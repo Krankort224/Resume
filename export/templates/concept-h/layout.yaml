@@ -1,0 +1,1229 @@
+{
+  "version": 4,
+  "concept": "h",
+  "name": "Редактируемая табличная компоновка",
+  "page": {
+    "format": "A4",
+    "width_mm": 210,
+    "height_mm": 297,
+    "margins_mm": {
+      "left": 17,
+      "right": 17,
+      "top": 17,
+      "bottom": 17
+    }
+  },
+  "typography": {
+    "body": "Calibri 10.5 pt",
+    "metadata": "Calibri 9.5 pt",
+    "heading": "Calibri 22 / 15 pt"
+  },
+  "sources": {
+    "crystal.title": {
+      "source": "portfolio/crystal-ship/project.md",
+      "selector": "title"
+    },
+    "crystal.intro": {
+      "source": "portfolio/crystal-ship/project.md",
+      "selector": "before first section"
+    },
+    "crystal.role": {
+      "source": "portfolio/crystal-ship/project.md",
+      "selector": "Роль"
+    },
+    "crystal.work": {
+      "source": "portfolio/crystal-ship/project.md",
+      "selector": "Выполнено"
+    },
+    "crystal.facade": {
+      "source": "portfolio/crystal-ship/project.md",
+      "selector": "Межфасадное пространство и обдув фасада"
+    },
+    "lakhta.title": {
+      "source": "portfolio/lakhta-center/project.md",
+      "selector": "title"
+    },
+    "lakhta.intro": {
+      "source": "portfolio/lakhta-center/project.md",
+      "selector": "before first section"
+    },
+    "lakhta.role": {
+      "source": "portfolio/lakhta-center/project.md",
+      "selector": "Роль"
+    },
+    "lakhta.work": {
+      "source": "portfolio/lakhta-center/project.md",
+      "selector": "Выполнено"
+    },
+    "shop.title": {
+      "source": "portfolio/3d-printing-shop/project.md",
+      "selector": "title"
+    },
+    "shop.intro": {
+      "source": "portfolio/3d-printing-shop/project.md",
+      "selector": "before first section"
+    },
+    "shop.role": {
+      "source": "portfolio/3d-printing-shop/project.md",
+      "selector": "Роль"
+    },
+    "shop.work": {
+      "source": "portfolio/3d-printing-shop/project.md",
+      "selector": "Выполнено"
+    },
+    "hap.title": {
+      "source": "portfolio/developments/hap-wrapper/project.md",
+      "selector": "title"
+    },
+    "hap.intro": {
+      "source": "portfolio/developments/hap-wrapper/project.md",
+      "selector": "before first section"
+    },
+    "hap.features": {
+      "source": "portfolio/developments/hap-wrapper/project.md",
+      "selector": "Реализовано"
+    },
+    "hap.tech": {
+      "source": "portfolio/developments/hap-wrapper/project.md",
+      "selector": "Архитектура и технологии"
+    },
+    "workflow.title": {
+      "source": "portfolio/developments/workflowpanel/project.md",
+      "selector": "title"
+    },
+    "workflow.intro": {
+      "source": "portfolio/developments/workflowpanel/project.md",
+      "selector": "before first section"
+    },
+    "workflow.features": {
+      "source": "portfolio/developments/workflowpanel/project.md",
+      "selector": "Реализовано"
+    },
+    "workflow.tech": {
+      "source": "portfolio/developments/workflowpanel/project.md",
+      "selector": "Архитектура и технологии"
+    },
+    "picky.title": {
+      "source": "portfolio/developments/pickyvpn/project.md",
+      "selector": "title"
+    },
+    "picky.intro": {
+      "source": "portfolio/developments/pickyvpn/project.md",
+      "selector": "before first section"
+    },
+    "picky.features": {
+      "source": "portfolio/developments/pickyvpn/project.md",
+      "selector": "Реализовано"
+    },
+    "picky.tech": {
+      "source": "portfolio/developments/pickyvpn/project.md",
+      "selector": "Архитектура и технологии"
+    },
+    "other.0.title": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 1 title"
+    },
+    "other.0.body": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 1 body"
+    },
+    "other.1.title": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 2 title"
+    },
+    "other.1.body": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 2 body"
+    },
+    "other.2.title": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 3 title"
+    },
+    "other.2.body": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 3 body"
+    },
+    "other.3.title": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 4 title"
+    },
+    "other.3.body": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 4 body"
+    },
+    "other.4.title": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 5 title"
+    },
+    "other.4.body": {
+      "source": "portfolio/other-projects/project.md",
+      "selector": "case 5 body"
+    },
+    "summary": {
+      "source": "resume/summary.md",
+      "selector": "all body"
+    },
+    "employer": {
+      "source": "resume/experience.md",
+      "selector": "first employer title"
+    },
+    "employment": {
+      "source": "resume/experience.md",
+      "selector": "first employer metadata and career progression"
+    },
+    "achievements": {
+      "source": "resume/experience.md",
+      "selector": "first employer achievements"
+    },
+    "competencies": {
+      "source": "resume/experience.md",
+      "selector": "first employer competencies"
+    },
+    "name": {
+      "source": "README.md",
+      "selector": "name"
+    },
+    "contacts": {
+      "source": "README.md",
+      "selector": "contacts excluding name"
+    }
+  },
+  "assets": {
+    "crystal.hero": {
+      "asset": "portfolio/crystal-ship/assets/hero-exterior.jpg",
+      "role": "hero"
+    },
+    "crystal.cfd": {
+      "asset": "portfolio/crystal-ship/assets/facade_south-west_cfd.png",
+      "role": "technical"
+    },
+    "crystal.pending": {
+      "asset": "pending",
+      "role": "technical",
+      "placeholder_aspect_ratio": "1:1",
+      "expected_asset": "crystal-navisworks-underground",
+      "placeholder_text": [
+        "ОЖИДАЕМЫЙ КАДР",
+        "Navisworks",
+        "Подземная часть",
+        "1:1"
+      ]
+    },
+    "lakhta.hero": {
+      "asset": "portfolio/lakhta-center/assets/hero-exterior.jpg",
+      "role": "hero"
+    },
+    "lakhta.detail": {
+      "asset": "portfolio/lakhta-center/assets/technical-sheet.png",
+      "role": "technical"
+    },
+    "lakhta.pending": {
+      "asset": "pending",
+      "role": "technical",
+      "placeholder_aspect_ratio": "1:2",
+      "expected_asset": "lakhta-ventilation-overview",
+      "placeholder_text": [
+        "ОЖИДАЕМЫЙ КАДР",
+        "Общий кадр",
+        "8 моделей вентиляции",
+        "1:2"
+      ]
+    },
+    "shop.detail": {
+      "asset": "portfolio/3d-printing-shop/assets/ventilation-axonometry.png",
+      "role": "technical"
+    },
+    "other.moscow": {
+      "asset": "portfolio/other-projects/assets/ice-bim-overview.png",
+      "role": "technical"
+    },
+    "other.shmitovsky": {
+      "asset": "portfolio/other-projects/assets/shmitovsky-vrf-axonometry.png",
+      "role": "technical"
+    },
+    "other.kingisepp": {
+      "asset": "portfolio/other-projects/assets/kingisepp-pump-room.png",
+      "role": "technical"
+    },
+    "hap.main": {
+      "asset": "portfolio/developments/hap-wrapper/assets/workflow.png",
+      "role": "interface"
+    },
+    "workflow.main": {
+      "asset": "portfolio/developments/workflowpanel/assets/main-window.png",
+      "role": "interface"
+    },
+    "picky.main": {
+      "asset": "portfolio/developments/pickyvpn/assets/windows-home.png",
+      "role": "interface"
+    },
+    "shop.plan": {
+      "asset": "portfolio/3d-printing-shop/assets/ventilation-plan.png",
+      "role": "technical"
+    },
+    "other.section": {
+      "asset": "portfolio/other-projects/assets/ice-bim-section.png",
+      "role": "technical"
+    },
+    "other.plan": {
+      "asset": "portfolio/other-projects/assets/shmitovsky-ventilation-plan.png",
+      "role": "technical"
+    },
+    "other.ios": {
+      "asset": "portfolio/other-projects/assets/kingisepp_ios.png",
+      "role": "technical"
+    },
+    "workflow.profile": {
+      "asset": "portfolio/developments/workflowpanel/assets/profile-or-log.png",
+      "role": "interface"
+    },
+    "picky.settings": {
+      "asset": "portfolio/developments/pickyvpn/assets/settings-killswitch.png",
+      "role": "interface"
+    }
+  },
+  "documents": {
+    "portfolio": [
+      [
+        {
+          "type": "text",
+          "ref": "crystal.title",
+          "style": "Heading 1",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            70,
+            106
+          ],
+          "rows": [
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "crystal.hero",
+                    "width_mm": 176,
+                    "align": "left"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 1,
+                "valign": "center",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "crystal.intro",
+                    "style": "Meta",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "type": "label",
+                    "text": "Роль",
+                    "style": "MetaLabel"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "crystal.role",
+                    "style": "Meta",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "crystal.pending",
+                    "width_mm": 99,
+                    "align": "right"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "table",
+          "widths_mm": [
+            88,
+            88
+          ],
+          "rows": [
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "label",
+                    "text": "Выполнено",
+                    "style": "Label"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "crystal.work",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      7
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "crystal.work",
+                    "style": "Body",
+                    "slice": [
+                      7,
+                      null
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "ref": "crystal.facade",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "crystal.cfd",
+                    "width_mm": 176,
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "ref": "lakhta.title",
+          "style": "Heading 1",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            99,
+            77
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "lakhta.hero",
+                    "width_mm": 93,
+                    "align": "left"
+                  },
+                  {
+                    "type": "label",
+                    "text": "Выполнено",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "lakhta.work",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      5
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "lakhta.intro",
+                    "style": "Meta",
+                    "slice": [
+                      1,
+                      null
+                    ]
+                  },
+                  {
+                    "type": "label",
+                    "text": "Роль",
+                    "style": "MetaLabel"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "lakhta.role",
+                    "style": "Meta",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "ref": "lakhta.pending",
+                    "width_mm": 71,
+                    "align": "right"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "table",
+          "widths_mm": [
+            88,
+            88
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "lakhta.work",
+                    "style": "Body",
+                    "slice": [
+                      5,
+                      9
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "lakhta.work",
+                    "style": "Body",
+                    "slice": [
+                      9,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "lakhta.detail",
+                    "width_mm": 176,
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "ref": "shop.title",
+          "style": "Heading 1",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            82,
+            94
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "shop.intro",
+                    "style": "Meta",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "type": "label",
+                    "text": "Роль",
+                    "style": "MetaLabel"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "shop.role",
+                    "style": "Meta",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "type": "label",
+                    "text": "Выполнено",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "shop.work",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "shop.plan",
+                    "width_mm": 88,
+                    "align": "left"
+                  },
+                  {
+                    "type": "image",
+                    "ref": "shop.detail",
+                    "width_mm": 88,
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "label",
+          "text": "Прочие проекты",
+          "style": "Heading 1"
+        },
+        {
+          "type": "text",
+          "ref": "other.0.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            88,
+            88
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "other.moscow",
+                    "width_mm": 82,
+                    "align": "left"
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "other.0.body",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "ref": "other.section",
+                    "width_mm": 82,
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "ref": "other.2.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            88,
+            88
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "other.2.body",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      1
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "other.2.body",
+                    "style": "Body",
+                    "slice": [
+                      1,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "other.ios",
+                    "width_mm": 78,
+                    "align": "left"
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "other.kingisepp",
+                    "width_mm": 78,
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "ref": "other.1.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            92,
+            84
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "other.shmitovsky",
+                    "width_mm": 86,
+                    "align": "left"
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "center",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "other.1.body",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "other.plan",
+                    "width_mm": 176,
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "ref": "other.3.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            176
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "other.3.body",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "ref": "other.4.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            176
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "text",
+                    "ref": "other.4.body",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "label",
+          "text": "Собственные разработки",
+          "style": "Heading 1"
+        },
+        {
+          "type": "text",
+          "ref": "hap.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "text",
+          "ref": "hap.intro",
+          "style": "Body",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            176
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "hap.main",
+                    "width_mm": 140,
+                    "align": "left"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "label",
+                    "text": "Реализовано",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "hap.features",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "label",
+                    "text": "Архитектура и технологии",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "hap.tech",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "ref": "workflow.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "text",
+          "ref": "workflow.intro",
+          "style": "Body",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            88,
+            88
+          ],
+          "rows": [
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "workflow.main",
+                    "width_mm": 132,
+                    "align": "left"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "label",
+                    "text": "Реализовано",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "workflow.features",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "label",
+                    "text": "Архитектура и технологии",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "workflow.tech",
+                    "style": "Meta",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "workflow.profile",
+                    "width_mm": 82,
+                    "align": "left"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "ref": "picky.title",
+          "style": "Heading 2",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "text",
+          "ref": "picky.intro",
+          "style": "Body",
+          "slice": [
+            null,
+            null
+          ]
+        },
+        {
+          "type": "table",
+          "widths_mm": [
+            88,
+            88
+          ],
+          "rows": [
+            [
+              {
+                "span": 1,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "label",
+                    "text": "Реализовано",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "picky.features",
+                    "style": "Body",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              },
+              {
+                "span": 1,
+                "valign": "center",
+                "nodes": [
+                  {
+                    "type": "image",
+                    "ref": "picky.main",
+                    "width_mm": 82,
+                    "align": "left"
+                  },
+                  {
+                    "type": "image",
+                    "ref": "picky.settings",
+                    "width_mm": 82,
+                    "align": "left"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "span": 2,
+                "valign": "top",
+                "nodes": [
+                  {
+                    "type": "label",
+                    "text": "Архитектура и технологии",
+                    "style": "Label"
+                  },
+                  {
+                    "type": "text",
+                    "ref": "picky.tech",
+                    "style": "Meta",
+                    "slice": [
+                      null,
+                      null
+                    ]
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "rules": {
+    "structure": "Real Heading 1/2 paragraphs outside tables. No portfolio title, TOC or repeated project heading. Labels are Body Text.",
+    "tables": "Inline fixed-width borderless tables. One table per project/page region. Horizontal gridSpan merges for full-width rows; no nested tables, SDT, text boxes or multicolumn sections.",
+    "cells": "6 mm gutter via 3 mm padding on each internal side; no padding at outside edges. Auto row height, no exact height or clipping. Inline images at original aspect ratio. Cell valign declared per cell.",
+    "pagination": "Explicit page breaks before the first heading or a 1 pt paragraph before continuation tables. Rows cannot split across pages. No phantom headings on continuation pages.",
+    "reading_order": "Left cell top to bottom, then right cell. Split work lists between complete items, maintain one numId and one label per project. Crystal facade joins crystal.work.",
+    "images": "17 selected repository images embedded unchanged, without crop. User-selected facade_south-west_cfd replaces former facade-cfd; facade_north_cfd is excluded by user choice. The new file was renamed from south-east to south-west at user request, without changing image bytes. Widths are adjustable and proportion-preserving; fit plans to available width and height.",
+    "placeholders": "Neutral embedded generated frames from asset metadata: Crystal square 1:1; Lakhta portrait 1:2. Physical dimensions may differ from G by user authorization.",
+    "scope": "Portfolio only. Preserve A–G and all source files. No PDF, final assembly, or automatic winner selection. Page 8 whitespace intentional per reference.",
+    "reproduction": "This declarative layout and repository sources specify the template; temporary scripts are not dependencies."
+  }
+}
