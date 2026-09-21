@@ -219,18 +219,6 @@
       "asset": "portfolio/lakhta-center/assets/technical-sheet.png",
       "role": "technical"
     },
-    "lakhta.pending": {
-      "asset": "pending",
-      "role": "technical",
-      "placeholder_aspect_ratio": "1:2",
-      "expected_asset": "lakhta-ventilation-overview",
-      "placeholder_text": [
-        "ОЖИДАЕМЫЙ КАДР",
-        "Общий кадр",
-        "8 моделей вентиляции",
-        "1:2"
-      ]
-    },
     "shop.detail": {
       "asset": "portfolio/3d-printing-shop/assets/ventilation-axonometry.png",
       "role": "technical"
@@ -282,6 +270,10 @@
     "picky.settings": {
       "asset": "portfolio/developments/pickyvpn/assets/settings-killswitch.png",
       "role": "interface"
+    },
+    "lakhta.overview": {
+      "asset": "portfolio/lakhta-center/assets/ventilation-overview.svg",
+      "role": "technical"
     }
   },
   "documents": {
@@ -488,7 +480,7 @@
             [
               {
                 "type": "image",
-                "ref": "lakhta.pending",
+                "ref": "lakhta.overview",
                 "width_mm": 100.8,
                 "align": "left"
               }
@@ -1071,8 +1063,8 @@
     "works": "One label and one list numId per project. Facade work joins crystal work without subheading; a page/column break never starts another semantic section.",
     "metadata": "Role is secondary. Omit duplicate Lakhta Object line because it repeats the project title verbatim.",
     "columns": "Native continuous section breaks and explicit column widths. No tables or containers. Manual column breaks only between paired text and image regions.",
-    "images": "Every prepared repository asset is embedded whole, at its original aspect ratio. No srcRect, clipping or source image modification.",
-    "placeholders": "Crystal 99×99 mm; Lakhta 100.8×201.6 mm. Respectively 1.5× and 1.8× the linear dimensions in F.",
+    "images": "Prepared repository assets are embedded at original aspect ratio unless an explicit crop is separately approved.",
+    "placeholders": "Crystal placeholder remains 1:1. Lakhta placeholder removed; the real vertical tower ventilation overview asset is used.",
     "pagination": "New-page section breaks between page plans; continuous sections within a page. Keep headings with next, paragraphs together, widow control.",
     "resume_scope": "Comparable template test: full summary and complete first/current employer, not final full CV.",
     "template": "Filled editable reference DOCX with native styles and sections; no SDT, no text boxes, no tables. Recreate from this declarative plan and repository sources; temporary prototype is not a required template component.",
