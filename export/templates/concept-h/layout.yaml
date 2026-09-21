@@ -205,18 +205,6 @@
       "asset": "portfolio/lakhta-center/assets/technical-sheet.png",
       "role": "technical"
     },
-    "lakhta.pending": {
-      "asset": "pending",
-      "role": "technical",
-      "placeholder_aspect_ratio": "1:2",
-      "expected_asset": "lakhta-ventilation-overview",
-      "placeholder_text": [
-        "ОЖИДАЕМЫЙ КАДР",
-        "Общий кадр",
-        "8 моделей вентиляции",
-        "1:2"
-      ]
-    },
     "shop.detail": {
       "asset": "portfolio/3d-printing-shop/assets/ventilation-axonometry.png",
       "role": "technical"
@@ -272,6 +260,11 @@
     "crystal.underground": {
       "asset": "portfolio/crystal-ship/assets/underground-navisworks.png",
       "role": "technical"
+    },
+    "lakhta.overview": {
+      "asset": "portfolio/lakhta-center/assets/ventilation-overview.svg",
+      "role": "technical",
+      "source_note": "Extracted from user-supplied Вентиляция Башни.pdf, page 1, 144 dpi. Only blank page margins removed. SVG embeds a 1686×6154 PNG, not newly traced vector geometry."
     }
   },
   "documents": {
@@ -505,9 +498,9 @@
                   },
                   {
                     "type": "image",
-                    "ref": "lakhta.pending",
-                    "width_mm": 71,
-                    "align": "right"
+                    "ref": "lakhta.overview",
+                    "width_mm": 46.5745856354,
+                    "align": "center"
                   }
                 ]
               }
@@ -1213,8 +1206,8 @@
     "cells": "6 mm gutter via 3 mm padding on each internal side; no padding at outside edges. Auto row height, no exact height or clipping. Inline images at original aspect ratio. Cell valign declared per cell.",
     "pagination": "Explicit page breaks before the first heading or a 1 pt paragraph before continuation tables. Rows cannot split across pages. No phantom headings on continuation pages.",
     "reading_order": "Left cell top to bottom, then right cell. Split work lists between complete items, maintain one numId and one label per project. Crystal facade joins crystal.work.",
-    "images": "18 selected repository images embedded unchanged, without crop, including real underground-navisworks.png. User-selected facade_south-west_cfd replaces former facade-cfd; facade_north_cfd is excluded by user choice. The new file was renamed from south-east to south-west at user request, without changing image bytes. Widths are adjustable and proportion-preserving; fit plans to available width and height.",
-    "placeholders": "Only Lakhta remains pending, portrait 1:2. The supplied ventilation-overview.svg contains an error message instead of embedded JPEG data and cannot be used; await a valid replacement. Crystal placeholder has been replaced by the actual underground image.",
+    "images": "19 selected real repository images embedded unchanged, without Word crop. SVG is embedded with a raster compatibility fallback decoded from the same SVG. Lakhta overview fits height 170 mm at its actual aspect ratio; no stretching to the old placeholder ratio. User-selected southwest CFD is included; north CFD is excluded.",
+    "placeholders": "None. Both expected frames have been replaced with real assets.",
     "scope": "Portfolio only. Preserve A–G and all source files. No PDF, final assembly, or automatic winner selection. Page 8 whitespace intentional per reference.",
     "reproduction": "This declarative layout and repository sources specify the template; temporary scripts are not dependencies."
   }
