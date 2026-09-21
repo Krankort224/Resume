@@ -197,18 +197,6 @@
       "asset": "portfolio/crystal-ship/assets/facade_south-west_cfd.png",
       "role": "technical"
     },
-    "crystal.pending": {
-      "asset": "pending",
-      "role": "technical",
-      "placeholder_aspect_ratio": "1:1",
-      "expected_asset": "crystal-navisworks-underground",
-      "placeholder_text": [
-        "ОЖИДАЕМЫЙ КАДР",
-        "Navisworks",
-        "Подземная часть",
-        "1:1"
-      ]
-    },
     "lakhta.hero": {
       "asset": "portfolio/lakhta-center/assets/hero-exterior.jpg",
       "role": "hero"
@@ -280,6 +268,10 @@
     "picky.settings": {
       "asset": "portfolio/developments/pickyvpn/assets/settings-killswitch.png",
       "role": "interface"
+    },
+    "crystal.underground": {
+      "asset": "portfolio/crystal-ship/assets/underground-navisworks.png",
+      "role": "technical"
     }
   },
   "documents": {
@@ -351,7 +343,7 @@
                 "nodes": [
                   {
                     "type": "image",
-                    "ref": "crystal.pending",
+                    "ref": "crystal.underground",
                     "width_mm": 99,
                     "align": "right"
                   }
@@ -1221,8 +1213,8 @@
     "cells": "6 mm gutter via 3 mm padding on each internal side; no padding at outside edges. Auto row height, no exact height or clipping. Inline images at original aspect ratio. Cell valign declared per cell.",
     "pagination": "Explicit page breaks before the first heading or a 1 pt paragraph before continuation tables. Rows cannot split across pages. No phantom headings on continuation pages.",
     "reading_order": "Left cell top to bottom, then right cell. Split work lists between complete items, maintain one numId and one label per project. Crystal facade joins crystal.work.",
-    "images": "17 selected repository images embedded unchanged, without crop. User-selected facade_south-west_cfd replaces former facade-cfd; facade_north_cfd is excluded by user choice. The new file was renamed from south-east to south-west at user request, without changing image bytes. Widths are adjustable and proportion-preserving; fit plans to available width and height.",
-    "placeholders": "Neutral embedded generated frames from asset metadata: Crystal square 1:1; Lakhta portrait 1:2. Physical dimensions may differ from G by user authorization.",
+    "images": "18 selected repository images embedded unchanged, without crop, including real underground-navisworks.png. User-selected facade_south-west_cfd replaces former facade-cfd; facade_north_cfd is excluded by user choice. The new file was renamed from south-east to south-west at user request, without changing image bytes. Widths are adjustable and proportion-preserving; fit plans to available width and height.",
+    "placeholders": "Only Lakhta remains pending, portrait 1:2. The supplied ventilation-overview.svg contains an error message instead of embedded JPEG data and cannot be used; await a valid replacement. Crystal placeholder has been replaced by the actual underground image.",
     "scope": "Portfolio only. Preserve A–G and all source files. No PDF, final assembly, or automatic winner selection. Page 8 whitespace intentional per reference.",
     "reproduction": "This declarative layout and repository sources specify the template; temporary scripts are not dependencies."
   }
