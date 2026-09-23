@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "concept": "h",
   "name": "Редактируемая табличная компоновка",
   "page": {
@@ -33,11 +33,7 @@
     },
     "crystal.work": {
       "source": "portfolio/crystal-ship/project.md",
-      "selector": "Выполнено"
-    },
-    "crystal.facade": {
-      "source": "portfolio/crystal-ship/project.md",
-      "selector": "Межфасадное пространство и обдув фасада"
+      "selector": "Ключевые задачи и решения"
     },
     "lakhta.title": {
       "source": "portfolio/lakhta-center/project.md",
@@ -142,22 +138,6 @@
     "other.2.body": {
       "source": "portfolio/other-projects/project.md",
       "selector": "case 3 body"
-    },
-    "other.3.title": {
-      "source": "portfolio/other-projects/project.md",
-      "selector": "case 4 title"
-    },
-    "other.3.body": {
-      "source": "portfolio/other-projects/project.md",
-      "selector": "case 4 body"
-    },
-    "other.4.title": {
-      "source": "portfolio/other-projects/project.md",
-      "selector": "case 5 title"
-    },
-    "other.4.body": {
-      "source": "portfolio/other-projects/project.md",
-      "selector": "case 5 body"
     },
     "summary": {
       "source": "resume/summary.md",
@@ -378,7 +358,7 @@
                     "style": "Body",
                     "slice": [
                       null,
-                      7
+                      3
                     ]
                   }
                 ]
@@ -392,16 +372,7 @@
                     "ref": "crystal.work",
                     "style": "Body",
                     "slice": [
-                      7,
-                      null
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "ref": "crystal.facade",
-                    "style": "Body",
-                    "slice": [
-                      null,
+                      3,
                       null
                     ]
                   }
@@ -849,76 +820,6 @@
       ],
       [
         {
-          "type": "text",
-          "ref": "other.3.title",
-          "style": "Heading 2",
-          "slice": [
-            null,
-            null
-          ]
-        },
-        {
-          "type": "table",
-          "widths_mm": [
-            176
-          ],
-          "rows": [
-            [
-              {
-                "span": 1,
-                "valign": "top",
-                "nodes": [
-                  {
-                    "type": "text",
-                    "ref": "other.3.body",
-                    "style": "Body",
-                    "slice": [
-                      null,
-                      null
-                    ]
-                  }
-                ]
-              }
-            ]
-          ]
-        },
-        {
-          "type": "text",
-          "ref": "other.4.title",
-          "style": "Heading 2",
-          "slice": [
-            null,
-            null
-          ]
-        },
-        {
-          "type": "table",
-          "widths_mm": [
-            176
-          ],
-          "rows": [
-            [
-              {
-                "span": 1,
-                "valign": "top",
-                "nodes": [
-                  {
-                    "type": "text",
-                    "ref": "other.4.body",
-                    "style": "Body",
-                    "slice": [
-                      null,
-                      null
-                    ]
-                  }
-                ]
-              }
-            ]
-          ]
-        }
-      ],
-      [
-        {
           "type": "label",
           "text": "Собственные разработки",
           "style": "Heading 1"
@@ -1205,10 +1106,10 @@
     "tables": "Inline fixed-width borderless tables. One table per project/page region. Horizontal gridSpan merges for full-width rows; no nested tables, SDT, text boxes or multicolumn sections.",
     "cells": "6 mm gutter via 3 mm padding on each internal side; no padding at outside edges. Auto row height, no exact height or clipping. Inline images at original aspect ratio. Cell valign declared per cell.",
     "pagination": "Explicit page breaks before the first heading or a 1 pt paragraph before continuation tables. Rows cannot split across pages. No phantom headings on continuation pages.",
-    "reading_order": "Left cell top to bottom, then right cell. Split work lists between complete items, maintain one numId and one label per project. Crystal facade joins crystal.work.",
+    "reading_order": "Left cell top to bottom, then right cell. Split work lists between complete items and maintain one label per project.",
     "images": "19 selected real repository images embedded unchanged, without Word crop. SVG is embedded with a raster compatibility fallback decoded from the same SVG. Lakhta overview fits height 170 mm at its actual aspect ratio; no stretching to the old placeholder ratio. User-selected southwest CFD is included; north CFD is excluded.",
     "placeholders": "None. Both expected frames have been replaced with real assets.",
-    "scope": "Portfolio only. Preserve A–G and all source files. No PDF, final assembly, or automatic winner selection. Page 8 whitespace intentional per reference.",
+    "scope": "Portfolio only. Preserve A–G and all source files. No PDF, final assembly, or automatic winner selection.",
     "reproduction": "This declarative layout and repository sources specify the template; temporary scripts are not dependencies."
   }
 }
