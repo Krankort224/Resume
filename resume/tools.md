@@ -2,8 +2,12 @@
 
 ## BIM / CAD
 
-- **Autodesk:** Revit, AutoCAD, Navisworks, Dynamo.
-- **MagiCAD:** MagiCAD for Revit, MagiCAD Create.
+- Revit.
+- AutoCAD.
+- Navisworks.
+- Dynamo.
+- MagiCAD for Revit.
+- MagiCAD Create.
 
 ## Инженерные расчёты
 
@@ -11,9 +15,8 @@
 - КВМ-Дым.
 - HAP 4.90.
 
-## Организация данных
+## Данные и автоматизация
 
-- **Microsoft 365:** Excel, Word, Access, PowerPoint.
-- **Яндекс 360:** Диск, Телемост.
+- Excel.
 - Специализированные утилиты собственной разработки.
 - ИИ-инструменты для разработки прикладных решений и обработки инженерных данных.
