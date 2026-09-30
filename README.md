@@ -29,3 +29,8 @@
    - [HAP Wrapper](portfolio/developments/hap-wrapper/project.md)
    - [WorkflowPanel](portfolio/developments/workflowpanel/project.md)
    - [PickyVPN](portfolio/developments/pickyvpn/project.md)
+
+### Готовые документы
+
+- [Резюме — Word](export/resume.docx)
+- [Портфолио выполненных проектов — Word](export/portfolio.docx)

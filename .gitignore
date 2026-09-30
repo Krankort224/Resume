@@ -1,2 +1,9 @@
 /sources/
 /.codex/
+
+# Временные файлы Word и PDF/рендеры проверки
+~$*.docx
+/export/*.pdf
+/export/*.png
+/export/*.jpg
+/export/*.zip
